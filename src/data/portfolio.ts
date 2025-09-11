@@ -19,7 +19,7 @@ export const profileData = {
 
 export const skillsData = {
   technical: [
-    "Java" ,"HTML", "CSS", "JavaScript", "React",
+    "Jaava" ,"HTML", "CSS", "JavaScript", "React",
     "MySQL", "Machine Learning", "N8N"
   ],
   tools: [
