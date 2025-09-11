@@ -84,7 +84,7 @@ export const experienceData = [
   company: "Keystone School of Engineering",
   position: "Industrial Mentorship / Personal Development Mentorship",
   duration: "Jan 2025 – Present",
-  description: "Mentored by Anil Shukla, former Head of Operations at Cisco, focusing on personal and professional growth. Guidance included affirmations, gratitude, visualization, positivity, and mindset development.",
+  description: "Mentored by Anil Shukla, Head of Operations at Cisco, Landmark Worldwide Mumbai, focusing on personal and professional growth. Guidance included affirmations, gratitude, visualization, positivity, and mindset development.",
   achievements: [
     "Enhanced communication, confidence, goal-setting, and self-awareness through structured mentorship sessions",
     "Applied learnings to improve academic performance, personal growth, and early professional skills",
