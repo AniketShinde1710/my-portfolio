@@ -80,17 +80,18 @@ features: [
 ]
 
 export const experienceData = [
-  {
-    company: "TechCorp Solutions",
-    position: "Senior Full Stack Developer",
-    duration: "2022 - Present",
-    description: "Lead development of enterprise web applications serving 100k+ users. Mentor junior developers and drive technical architecture decisions.",
-    achievements: [
-      "Improved application performance by 40% through code optimization",
-      "Led migration to microservices architecture",
-      "Mentored 5 junior developers"
-    ]
-  },
+{
+  company: "Keystone School of Engineering",
+  position: "Industrial Mentorship / Personal Development Mentorship",
+  duration: "Jan 2025 – Present",
+  description: "Mentored by Anil Shukla, former Head of Operations at Cisco, focusing on personal and professional growth. Guidance included affirmations, gratitude, visualization, positivity, and mindset development.",
+  achievements: [
+    "Enhanced communication, confidence, goal-setting, and self-awareness through structured mentorship sessions",
+    "Applied learnings to improve academic performance, personal growth, and early professional skills",
+    "Developed a growth-oriented mindset for long-term career success"
+  ]
+}
+,
   {
     company: "StartupXYZ",
     position: "Full Stack Developer",
