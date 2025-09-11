@@ -33,7 +33,7 @@ export const skillsData = {
 export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "E-Commerce Platformm",
     description: "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
     technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
     features: [
