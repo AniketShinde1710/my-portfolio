@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Portfolio Design System - Modern & Elegant */
+
+@layer base {
+  :root {
+    /* Core brand colors */
+    --background: 255 255 255;
+    --foreground: 226 32% 12%;
+
+    /* Primary brand - Professional blue */
+    --primary: 224 76% 48%;
+    --primary-glow: 224 100% 58%;
+    --primary-foreground: 255 255 255;
+
+    /* Secondary - Elegant purple accent */
+    --secondary: 266 85% 58%;
+    --secondary-glow: 266 100% 68%;
+    --secondary-foreground: 255 255 255;
+
+    /* Surface colors */
+    --card: 255 255 255;
+    --card-foreground: 226 32% 12%;
+    
+    --surface: 220 14% 96%;
+    --surface-foreground: 226 32% 12%;
+
+    /* Interactive states */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    
+    --accent: 224 76% 48%;
+    --accent-foreground: 255 255 255;
+
+    /* Semantic colors */
+    --success: 142 76% 36%;
+    --warning: 38 92% 50%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 255 255 255;
+
+    /* Border and input */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 76% 48%;
+
+    /* Design system tokens */
+    --radius: 0.75rem;
+    --shadow-sm: 0 1px 2px 0 hsl(220 43% 11% / 0.05);
+    --shadow: 0 4px 6px -1px hsl(220 43% 11% / 0.1);
+    --shadow-lg: 0 20px 25px -5px hsl(220 43% 11% / 0.1);
+    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
+    --shadow-secondary-glow: 0 0 40px hsl(var(--secondary) / 0.3);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    --gradient-surface: linear-gradient(180deg, hsl(var(--background)), hsl(var(--surface)));
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode colors */
+    --background: 226 32% 6%;
+    --foreground: 210 40% 98%;
+
+    /* Primary brand in dark mode */
+    --primary: 224 100% 58%;
+    --primary-glow: 224 100% 68%;
+    --primary-foreground: 226 32% 6%;
+
+    /* Secondary in dark mode */
+    --secondary: 266 100% 68%;
+    --secondary-glow: 266 100% 78%;
+    --secondary-foreground: 226 32% 6%;
+
+    /* Surface colors in dark mode */
+    --card: 226 32% 8%;
+    --card-foreground: 210 40% 98%;
+    
+    --surface: 226 32% 10%;
+    --surface-foreground: 210 40% 98%;
+
+    /* Interactive states in dark mode */
+    --muted: 226 32% 10%;
+    --muted-foreground: 220 9% 60%;
+    
+    --accent: 224 100% 58%;
+    --accent-foreground: 226 32% 6%;
+
+    /* Semantic colors in dark mode */
+    --success: 142 76% 46%;
+    --warning: 38 92% 60%;
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 226 32% 6%;
+
+    /* Border and input in dark mode */
+    --border: 226 32% 15%;
+    --input: 226 32% 15%;
+    --ring: 224 100% 58%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Hero gradient background */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  /* Glass effect for cards */
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background: hsl(var(--card) / 0.8);
+    border: 1px solid hsl(var(--border) / 0.2);
+  }
+
+  /* Animated gradient text */
+  .gradient-text {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Hover effects */
+  .hover-scale {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+
+  .hover-glow:hover {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .hover-secondary-glow:hover {
+    box-shadow: var(--shadow-secondary-glow);
+  }
+
+  /* Project card effects */
+  .project-card {
+    transition: var(--transition-smooth);
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: var(--radius);
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: hsl(var(--primary) / 0.3);
+  }
+
+  /* Skill tag animations */
+  .skill-tag {
+    transition: var(--transition-bounce);
+  }
+
+  .skill-tag:hover {
+    transform: scale(1.1);
+    background: var(--gradient-primary);
+    color: hsl(var(--primary-foreground));
+  }
+}
