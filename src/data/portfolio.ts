@@ -74,7 +74,7 @@ features: [
     "Mobile-responsive and interactive UI components"
   ],
   githubUrl: "https://github.com/AniketShinde1710/my-portfolio",
-  liveUrl: "https://my-portfolio.netlify.app",
+  liveUrl: "https://my-portfolio.netlify.app/",
   imageUrl: "/project-portfolio.jpg"
 }
 
