@@ -73,7 +73,7 @@ features: [
     "Contact form for inquiries"
   ],
   githubUrl: "https://github.com/AniketShinde1710/my-portfolio",
-  liveUrl: "https://my-portfolio.netlify.app/", // ye link pe click karne par portfolio khulega
+  liveUrl: "https://aniket-portfoli.netlify.app/", // ye link pe click karne par portfolio khulega
   imageUrl: "/project-portfolio.jpg" // project ka thumbnail image
 }
 
