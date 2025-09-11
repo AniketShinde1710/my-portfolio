@@ -61,21 +61,23 @@ features: [
     liveUrl: "https://taskmanager.alexchen.dev",
     imageUrl: "/project-taskmanager.jpg"
   },
-  {
-    id: 3,
-    title: "Weather Analytics Dashboard",
-    description: "Data visualization dashboard displaying weather patterns and climate trends. Integrates multiple weather APIs with interactive charts and predictive analytics.",
-    technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
-    features: [
-      "Interactive data visualizations",
-      "Real-time weather updates",
-      "Historical trend analysis",
-      "Predictive modeling"
-    ],
-    githubUrl: "https://github.com/AniketShinde1710/CarGarageManagement/tree/main/CarGarageBilling/out",
-    liveUrl: "https://weather.alexchen.dev",
-    imageUrl: "/project-weather.jpg"
-  }
+{
+  id: 3,
+  title: "Personal Portfolio Website",
+  description: "A responsive personal portfolio website to showcase my skills, projects, and professional experience. Built with modern web technologies for performance and scalability.",
+  technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "shadcn-ui"],
+  features: [
+    "About Me section highlighting experience and background",
+    "Skills & Expertise with technical and soft skills",
+    "Featured Projects with live demos and code links",
+    "Contact form for easy communication",
+    "Mobile-responsive and interactive UI components"
+  ],
+  githubUrl: "https://github.com/AniketShinde1710/my-portfolio",
+  liveUrl: "https://my-portfolio.netlify.app",
+  imageUrl: "/project-portfolio.jpg"
+}
+
 ]
 
 export const experienceData = [
