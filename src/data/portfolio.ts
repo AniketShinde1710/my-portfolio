@@ -64,18 +64,17 @@ features: [
 {
   id: 3,
   title: "Personal Portfolio Website",
-  description: "A responsive personal portfolio website to showcase my skills, projects, and professional experience. Built with modern web technologies for performance and scalability.",
-  technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "shadcn-ui"],
+  description: "My personal portfolio showcasing my skills, projects, and experience.",
+  technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn-ui", "Vite"],
   features: [
-    "About Me section highlighting experience and background",
-    "Skills & Expertise with technical and soft skills",
-    "Featured Projects with live demos and code links",
-    "Contact form for easy communication",
-    "Mobile-responsive and interactive UI components"
+    "Showcases all my projects",
+    "Skills & expertise section",
+    "Responsive design",
+    "Contact form for inquiries"
   ],
   githubUrl: "https://github.com/AniketShinde1710/my-portfolio",
-  liveUrl: "https://my-portfolio.netlify.app/",
-  imageUrl: "https://my-portfolio.netlify.app/"
+  liveUrl: "https://my-portfolio.netlify.app/", // ye link pe click karne par portfolio khulega
+  imageUrl: "/project-portfolio.jpg" // project ka thumbnail image
 }
 
 ]
