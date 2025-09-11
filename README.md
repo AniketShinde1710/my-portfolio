@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,23 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=======
+# my-portfolio
+
+Welcome to my portfolio project!
+
+## Project info
+
+**URL**: https://lovable.dev/projects/92e4cfff-3158-4fdf-aa79-45c95e5208dd
+
+## Technologies used
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How to edit and deploy
+
+(ya tum apne hisaab se content add kar sakte ho)
