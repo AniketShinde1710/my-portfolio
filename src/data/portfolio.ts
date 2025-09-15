@@ -9,7 +9,7 @@ export const profileData = {
   email: "aniketshinde1710@gmail.com",
   phone: "+91 9075015914", 
   location: "Handewadi pune, India",
-  resumeUrl: "public/anuuukettt (4).pdf", // Add your resume file to the public folder
+  resumeUrl: "public/anuuukettt (6).pdf", // Add your resume file to the public folder
   social: {
     github: "https://github.com/AniketShinde1710",
     linkedin: "https://www.linkedin.com/in/aniketshinde1710/",
@@ -98,9 +98,9 @@ export const experienceData = [
     duration: "2020 - 2022",
     description: "Built core features for SaaS platform from MVP to Series A. Worked closely with product team to deliver user-focused solutions.",
     achievements: [
-      "Developed authentication and billing systems",
-      "Implemented real-time features using WebSockets",
-      "Reduced API response times by 60%"
+      // "Developed authentication and billing systems",
+      // "Implemented real-time features using WebSockets",
+      // "Reduced API response times by 60%"
     ]
   },
   {
@@ -109,9 +109,9 @@ export const experienceData = [
     duration: "2019 - 2020",
     description: "Created responsive websites and web applications for diverse clients. Focused on performance optimization and accessibility.",
     achievements: [
-      "Delivered 15+ client projects on time",
-      "Achieved 98+ Lighthouse scores",
-      "Implemented WCAG 2.1 accessibility standards"
+      // "Delivered 15+ client projects on time",
+      // "Achieved 98+ Lighthouse scores",
+      // "Implemented WCAG 2.1 accessibility standards"
     ]
   }
 ]
