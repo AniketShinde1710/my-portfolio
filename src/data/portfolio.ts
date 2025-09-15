@@ -9,7 +9,7 @@ export const profileData = {
   email: "aniketshinde1710@gmail.com",
   phone: "+91 9075015914", 
   location: "Handewadi pune, India",
-  resumeUrl: "public/anuuukettt (6).pdf", // Add your resume file to the public folder
+  resumeUrl: "anuuukettt (6).pdf", // Add your resume file to the public folder
   social: {
     github: "https://github.com/AniketShinde1710",
     linkedin: "https://www.linkedin.com/in/aniketshinde1710/",
