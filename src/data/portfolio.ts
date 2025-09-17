@@ -13,7 +13,7 @@ export const profileData = {
   social: {
     github: "https://github.com/AniketShinde1710",
     linkedin: "https://www.linkedin.com/in/aniketshinde1710/",
-    twitter: "https://twitter.com/aniketshinde"
+    twitter: "https://twitter.com/aniketshinde" 
   }
 }
 
